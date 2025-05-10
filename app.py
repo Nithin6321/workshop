@@ -4,8 +4,8 @@ from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationChain
 
 # --- UI Setup ---
-st.set_page_config(page_title="KIRA's AI Assistant", page_icon="🤖", layout="centered")
-st.markdown("<h1 style='text-align: center;'>💬 Kira's AI Assistant</h1>", unsafe_allow_html=True)
+st.set_page_config(page_title="Nithin's AI Assistant", page_icon="🤖", layout="centered")
+st.markdown("<h1 style='text-align: center;'>💬 Nithin's AI Assistant</h1>", unsafe_allow_html=True)
 
 # --- API Key ---
 api_key=st.secreats["CHATGROQ_API_KEY"] #Use Streamlit secreats for
