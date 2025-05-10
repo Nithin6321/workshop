@@ -8,7 +8,7 @@ st.set_page_config(page_title="Nithin's AI Assistant", page_icon="🤖", layout=
 st.markdown("<h1 style='text-align: center;'>💬 Nithin's AI Assistant</h1>", unsafe_allow_html=True)
 
 # --- API Key ---
-api_key=st.secreats["CHATGROQ_API_KEY"] #Use Streamlit secreats for
+api_key=st.secrets["CHATGROQ_API_KEY"] #Use Streamlit secreats for
 # --- Session State ---
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
