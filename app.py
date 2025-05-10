@@ -8,8 +8,7 @@ st.set_page_config(page_title="KIRA's AI Assistant", page_icon="🤖", layout="c
 st.markdown("<h1 style='text-align: center;'>💬 Kira's AI Assistant</h1>", unsafe_allow_html=True)
 
 # --- API Key ---
-api_key = "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"  # move this to st.secrets or env in production
-
+api_key=st.secreats["CHATGROQ_API_KEY"] #Use Streamlit secreats for
 # --- Session State ---
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
